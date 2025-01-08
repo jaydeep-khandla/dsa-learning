@@ -275,5 +275,6 @@ public class String2 {
         // 57. replaceFirst(String regex, String replacement)
         System.out.println("Replace First: " + str.replaceFirst("o", "0"));
 
+        scanner.close();
     }
 }
