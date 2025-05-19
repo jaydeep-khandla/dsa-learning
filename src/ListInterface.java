@@ -136,9 +136,7 @@ public class ListInterface {
 //        }
 
       // Example:
-      CollectionDemo demo = new CollectionDemo();
-
-      demo.run(args);
+      CollectionDemo.run(args);
     }
 }
 
