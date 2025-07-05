@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /* 
  * Stack Implementation using Queues
@@ -32,8 +33,8 @@ public class StackUsingQueues {
     private Queue<Integer> tempQueue;
 
     public StackUsingQueues() {
-        mainQueue = new LinkedList<>();
-        tempQueue = new LinkedList<>();
+        mainQueue = new LinkedList<Integer>();
+        tempQueue = new LinkedList<Integer>();
     }
 
     public void push(int value) {

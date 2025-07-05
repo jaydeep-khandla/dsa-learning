@@ -233,5 +233,9 @@ public class LinkedList {
         list.insertAtPosition(15, 2);
         list.insertAtPosition(5, 1);
         list.printList();
+        list.deleteAtHead();
+        list.deleteAtTail();
+        list.deleteAtPosition(1);
+        list.printList();
     }
 }
